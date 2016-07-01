@@ -1,0 +1,36 @@
+<div id="selectBox">
+    <div class="well">
+        <h5>My Selections</h5>
+        <ul>
+            <li>Depart from: {{depart}}</li>
+            <li>Max Cost (pp): {{max_cost | curr}}</li>
+        </ul>
+    </div>
+    <div class="well">
+        <p>Where are you leaving from?</p>
+        </div>
+</div>
+
+<div ng-repeat="trip in trips">
+    <section class="gallery">
+
+        <div class="imageAndText">
+            <img ng-src="Content/images/{{trip.image}}"  class="align-center img-responsive"/>
+
+            <div class="col">
+                <div class="col-sm-12">
+
+                    <div class="well" style="opacity: 0.6;">
+                        <h5>{{trip.title}}</h5>
+                        <h6>{{trip.date_from}} - {{trip.date_to}}</h6>
+                        <h6>{{trip.people}}</h6>
+                        <h6>{{trip.type}}</h6>
+                        <h4>{{trip.price | curr}}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+

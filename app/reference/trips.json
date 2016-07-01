@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Napa hotel",
+    "image": "napa-hotel.jpg",
+    "date_from": "Mon, Feb 16",
+    "date_to": "Wed, Feb 18",
+    "people": "2 People",
+    "type": "Accommodation",
+    "price": 400
+  },
+  {
+    "title": "Tijuana Market",
+    "image": "tijuana-market.jpg",
+    "date_from": "Mon, Feb 16",
+    "date_to": "Wed, Feb 18",
+    "people": "2 People",
+    "type": "Flights from SFO / Accommodation",
+    "price": 1200
+  },
+  {
+    "title": "Mendocino Cottage",
+    "image": "mendo-cottage.jpg",
+    "date_from": "Mon, Feb 16",
+    "date_to": "Wed, Feb 18",
+    "people": "2 People",
+    "type": "Accommodation",
+    "price": 350
+  },
+  {
+    "title": "Arizona Golf",
+    "image": "az-golf.jpg",
+    "date_from": "Mon, Feb 16",
+    "date_to": "Wed, Feb 18",
+    "people": "2 People",
+    "type": "Flights from SFO / Accommodation",
+    "price": 1000
+  }
+]
+
+
